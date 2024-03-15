@@ -117,24 +117,76 @@ a {
     color: #0A3871;
 }
 
+
 @media (max-width: 1200px) {
     main {
         flex-direction: column;
         margin: 0px 60px;
     }
+
     .text-area {
         background: #FFFF;
+        margin-left: 0px;
+        width: 950px;
+        height: 300px;
         position: fixed;
-        width: 1000px;
+    }
+
+    .btn-copiar {
+        width: 900px;
+        height: 57px;
+        left: 0%;
+        transform: translateX(0%);
+        margin-left: 100px;
+        margin-top: 220px;
     }
 }
 
 @media (max-width: 768px) {
-    
+
     .text-area {
-        width: 668px;
+        width: 700px;
+    }
+
+    .btn-copiar {
+        width: 650px;
     }
 }
 
 @media (max-width: 375px) {
+
+    .logo-alura {
+        margin-left: 20px;
+        width: 30%;
+    }
+
+    .informacao h6 {
+        font-size: 14px;
+    }
+
+    .botoes {
+        flex-direction: column;
+    }
+
+    .btn-criptografar,
+    .btn-descriptografar {
+        width: 290px;
+        height: 57px;
+        margin-bottom: 24px;
+    }
+
+    .text-area {
+        width: 290px;
+    }
+
+    .btn-copiar {
+        width: 260px;
+        margin-left: 90px;
+        margin-top: 240px;
+    }
+
+    .rodape p,
+    a {
+        font-size: 18px;
+    }
 }
