@@ -39,7 +39,7 @@ main {
 
 .text-area {
     background: #FFFF;
-    background-image: url(/assets/boneco.png);
+    background-image: url(assets/boneco.png);
     background-repeat: no-repeat;
     background-position: center;
     border: none;
